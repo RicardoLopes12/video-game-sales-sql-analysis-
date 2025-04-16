@@ -1,51 +1,45 @@
-# 🎮 Video Game Sales SQL Analysis
+# 🎮 Análise de Vendas de Video Games com SQL
 
-This project is an exploratory analysis of video game sales data using SQL. The dataset contains historical sales data from various platforms and regions, sourced from [Kaggle](https://www.kaggle.com/datasets/zahidmughal2343/video-games-sale).
+Este projeto é uma análise exploratória de dados de vendas de video games utilizando SQL. O conjunto de dados contém informações históricas de vendas por plataforma e por região, retirado do [Kaggle](https://www.kaggle.com/datasets/zahidmughal2343/video-games-sale).
 
-## 📌 Objective
+## 📌 Objetivo
 
-Analyze global video game sales to identify:
-- Best-selling games by year
-- Genre and platform preferences by region
-- Top publishers and their reach
-- Regional consumption trends over time
+Analisar as vendas globais de video games para identificar:
+- Jogos mais vendidos por ano
+- Gêneros e plataformas preferidas por região
+- Principais publishers e seu alcance
+- Tendências regionais de consumo ao longo dos anos
 
-## 🧹 Data Cleaning
+## 🧹 Limpeza de Dados
 
-Steps included:
-- Creating a staging table to preserve the original data
-- Removing duplicates
-- Standardizing publisher names (e.g. "Sony" variations)
-- Checking for missing or null values
+Etapas realizadas:
+- Criação de uma tabela `staging` para preservar os dados originais
+- Remoção de duplicatas
+- Padronização dos nomes das publishers (ex: variações de "Sony")
+- Verificação de valores nulos ou vazios
 
-All queries are documented in `cleaning.sql`.
+Todas as queries estão documentadas em `Exploratory Data Analysis.sql`.
 
-## 📊 Exploratory Data Analysis (EDA)
+## 📊 Análise Exploratória (EDA)
 
-Topics covered:
-- Global sales by platform and genre
-- Favorite genres by region
-- Regional sales trends over the years
-- Top publishers globally
+Tópicos analisados:
+- Vendas globais por plataforma e por gênero
+- Gêneros preferidos em cada região
+- Evolução das vendas regionais ao longo dos anos
+- Publishers com maior volume de vendas
 
+Todas as queries estão no arquivo `Exploratory Data Analysis.sql`.
 
-## 📈 Example Insights
+## 📈 Exemplos de Insights
 
-- **Action** is the most popular genre in NA and EU.
-- **Japan** has a strong preference for **Role-Playing** games.
-- The **DS** and **PS2** platforms lead in global sales.
-- **Nintendo** and **Electronic Arts** are top publishers globally.
+- **Ação** é o gênero mais popular na América do Norte e Europa.
+- O **Japão** tem forte preferência por jogos de **RPG**.
+- As plataformas **DS** e **PS2** lideram em vendas globais.
+- **Nintendo** e **Electronic Arts** são os publishers com maior presença global.
 
-## 🔧 Tools Used
+## 📁 Arquivos
 
-- MySQL
-- VS Code / DBeaver (SQL Editor)
-- Optional: Excel or Power BI for charts
-
-## 📁 Files
-
-- `Data Cleaning.sql` – Data cleaning and preparation queries
-- `Exploratory Data Analysis.sql` – Analysis queries
-- `vg_sales_clean.csv` – Cleaned version of the dataset
----
+- `Data Cleaning.sql` – Queries de limpeza e preparação dos dados
+- `Exploratory Data Analysis.sql` – Queries de análise exploratória
+- `vg_sales_clean.csv` – Versão limpa da base de dados (opcional)
 
