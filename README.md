@@ -41,5 +41,5 @@ Todas as queries estão no arquivo `Exploratory Data Analysis.sql`.
 
 - `Data Cleaning.sql` – Queries de limpeza e preparação dos dados
 - `Exploratory Data Analysis.sql` – Queries de análise exploratória
-- `vg_sales_clean.csv` – Versão limpa da base de dados (opcional)
+- `vg_sales_clean.csv` – Versão limpa da base de dados
 
