@@ -21,8 +21,8 @@ FROM vg_sales_staging
 SELECT *
 FROM (
 SELECT *,
-		ROW_NUMBER() OVER (
-			PARTITION BY `Rank`, `Name`, `Platform`, `Year`, `Genre`, `Publisher`, `NA_Sales`, `EU_Sales`, `JP_Sales`, `Other_Sales`, `Global_Sales`) AS row_num
+	ROW_NUMBER() OVER (
+	PARTITION BY `Rank`, `Name`, `Platform`, `Year`, `Genre`, `Publisher`, `NA_Sales`, `EU_Sales`, `JP_Sales`, `Other_Sales`, `Global_Sales`) AS row_num
 	FROM vg_sales_staging
     )duplicates
 WHERE 	row_num > 1;
