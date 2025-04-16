@@ -18,7 +18,7 @@ Etapas realizadas:
 - Padronização dos nomes das publishers (ex: variações de "Sony")
 - Verificação de valores nulos ou vazios
 
-Todas as queries estão documentadas em `Exploratory Data Analysis.sql`.
+Todas as queries estão documentadas em `Exploratory_Data_Analysis.sql`.
 
 ## 📊 Análise Exploratória (EDA)
 
